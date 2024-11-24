@@ -1,0 +1,404 @@
+*{
+	margin: o;
+	padding: 0;
+}
+
+
+.navigation{
+	height: 140px;
+	width: 1240px;
+	margin-top: 10px;
+	background-color: #2851a3;
+	border-radius: 10px 10px 0px 0px;
+	position: relative;
+/*	overflow-y: hidden;*/
+	display: flex;
+	
+	}
+
+.nav-item a{
+	text-decoration: none;
+}
+.brand{
+  padding-left: 35px;
+}
+.container-fluid{
+
+}
+.brand-name img{
+	height: 95px;
+	width: 120px;
+	padding-left: 20px;
+}
+.brand-text p{
+	
+	color: white;
+	margin-top: -20px;
+}
+
+/* Basic styling for the dropdown container */
+
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  margin-right: 30px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+
+
+.navbar{
+	width: 870px;
+	height: 75px;
+	margin-top: 20px;
+	margin-left: 130px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.navbar-nav{
+	margin-left: 8px;
+
+}
+
+.nav-item a{
+	margin-left: 35px;
+	font-size: 15px;
+	font-weight: bold;
+	color:#2851a3 ;
+	padding-top: 10px;
+}
+
+.nav-item button{
+	border: none;
+	background-color:#2851a3 ;
+	margin-left: 20px;
+	border-radius: 6px;
+	
+}
+
+
+.navbar-nav button a{
+	color: white;
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+
+
+
+.video .nav{
+	margin-left: 18px;
+	z-index: 0;
+}
+
+.middle{
+	height: 450px;
+	width: 1240px;
+	background-color: #e2ebef;
+	margin-top: 10px;
+}
+
+.text-career{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.clr{
+color: red;
+}
+
+.container2{
+	width: 97%;
+	margin: 2% auto;
+
+}
+
+.container2 .card{
+/*	background-image: url("navy11.png");*/
+	height: 260px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px #12181973;
+}
+.container2 .card img{
+	height: 100%;
+	border-radius: 5px;
+
+}
+
+.overlay{
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	inset: 0;
+	background-color:#0000008c;
+	transform: translateX(-80%);
+	transition: all 0.5s ease-out;
+	opacity: 0;
+}
+
+.card:hover .overlay{
+	transform: translateX(0);
+	opacity: 1;
+	box-shadow: inset 5px 5px 10px rgb(128, 128, 128,),inset -5px -5px 10px rgb(128, 128, 128);
+}
+
+.event{
+	height: 350px;
+	width: 1240px;
+	background-color: #2851a3;;
+}
+
+.event-text h3{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+
+.container3{
+
+}
+
+.container3 .card{
+	
+	border-radius:10px;
+	margin-top: 10px;
+
+
+}
+
+
+.container3 .card img{
+	height: 260px;
+	border-radius: 10px;
+	border: 3px solid white;
+
+}
+
+.Questions{
+  height: auto;
+	width: 1240px;
+	background-color: #eaedee;
+}
+
+.question-text h4{
+	text-align: center;
+	color: #2851a3;
+	padding-top: 20px;
+}
+
+.container4{
+	margin: 4% auto;
+	width: 93%;
+}
+
+
+.container4 .card{
+	background: url('navydoctor.png');
+  width: 330px;
+  height: 200px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container5{
+	width: 65%;
+	margin: 3% auto;
+}
+
+.container5 .card{
+	background: url('navymale.jpg');
+  width: 330px;
+  height: 200px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+	background-size: cover
+}
+
+.bar{
+	height: 150px;
+	background-color:#2851a3 ;
+	margin-bottom: 10%;
+	margin-top: 8%;
+	margin-bottom: 5%;
+	width: 75%;
+	border-radius: 10px;
+
+}
+
+.main{
+	display: flex;
+}
+
+.bar-text{
+	color: white;
+	margin-top: 50px;
+}
+
+.quaid-pic img{
+	height: 130px;
+	width: 100px;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+.selection{
+	height: auto;
+	width: 1240px;
+	background-color:#2851a3 ;
+	margin-top: 50px;
+}
+
+.selection h3{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.nav6{
+ display: flex;	
+}
+
+.card12{
+	position: relative;
+}
+.card12 img{
+
+	width: 319px;
+	height: 480px;
+	margin-left: -12px;
+	margin-bottom: 5px;
+}
+
+
+
+.caption {
+            position: absolute;
+            bottom: 10px;
+/*            left: 46%;*/
+            transform: translateX(-4%);
+            background-color:#000000a1;
+/*            left: 10px;*/
+/*            right: 1.5px;*/
+            color: white;
+            padding: 10px;
+            width: 104%;
+            height: 70px;
+            text-align: center;
+        }
+
+ 
+
+
+
+/*
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .pagination .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .pagination .dot .active {
+            background-color: #004683;
+        }*/
+
+
+/*.container6 .card img{
+		height: 300px;
+}*/
+
+.footer{
+width: 1240px;
+height: 300px;
+	background-color:#2851a3 ;
+	margin-top: 25px;
+	
+}
+
+.main-footer{
+	display: flex;
+	padding: 5% ;
+}
+
+.logo-footer{
+	margin-top: -45px;
+}
+
+
+.logo-footer img{
+  height: 250px;
+	width: 200px;
+
+}
+.logo-footer p{
+	color: white;
+	margin-top: -60px;
+	margin-left: 15px;
+}
+
+.home-sec{
+	margin-left: 20%;
+	color: white;
+	text-decoration: none;
+}
+.main-galery{
+	margin-left: 15%;
+}
+
+.galery img{
+	height: 70px;
+	width: 90px;
+border-radius: 3px;
+border: 2px solid white;
+
+}
+
+.galery2{
+
+}

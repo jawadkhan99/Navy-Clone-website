@@ -1,0 +1,186 @@
+*{
+	margin: o;
+	padding: 0;
+}
+
+
+.navigation{
+	height: 140px;
+	width: 1240px;
+	margin-top: 10px;
+	background-color: #2851a3;
+	border-radius: 10px 10px 0px 0px;
+	position: relative;
+	overflow-y: hidden;
+	display: flex;
+	
+	}
+
+.nav-item a{
+	text-decoration: none;
+}
+.brand{
+  padding-left: 35px;
+}
+
+.brand-name img{
+	height: 95px;
+	width: 120px;
+	padding-left: 20px;
+}
+.brand-text p{
+	
+	color: white;
+	margin-top: -20px;
+}
+
+
+
+.navbar{
+	width: 870px;
+	height: 75px;
+	margin-top: 20px;
+	margin-left: 130px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.navbar-nav{
+	margin-left: 8px;
+
+}
+
+.nav-item a{
+	margin-left: 35px;
+	font-size: 15px;
+	font-weight: bold;
+	color:#2851a3 ;
+	padding-top: 10px;
+}
+
+.nav-item button{
+	border: none;
+	background-color:#2851a3 ;
+	margin-left: 20px;
+	border-radius: 6px;
+	
+}
+
+
+.navbar-nav button a{
+	color: white;
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+
+/*pnr*/
+
+.pnr{
+	width: 1240px;
+}
+
+.main-pnr{
+	margin: 4% auto;
+}
+
+.main-pnr h3{
+	text-align: center;
+
+}
+
+.container-pnr{
+/*	margin: 3% auto;
+	width: 98%;*/
+}
+
+.container-pnr .card {
+	position: relative;
+	border-radius: 0px;
+	border: 0px;
+	
+}
+
+.image-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.6s ease-in-out;
+}
+
+.card:hover .image-container img {
+    transform: scaleX(-1); /* Flip image horizontally */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*    background-color: rgba(0, 0, 0, 0.8); */
+background-color: #2851a3; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    text-align: center;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+/*footer*/
+
+.footer{
+width: 1240px;
+height: 300px;
+	background-color:#2851a3 ;
+	margin-top: 25px;
+	
+}
+
+.main-footer{
+	display: flex;
+	padding: 5% ;
+}
+
+.logo-footer{
+	margin-top: -45px;
+}
+
+
+.logo-footer img{
+  height: 250px;
+	width: 200px;
+
+}
+.logo-footer p{
+	color: white;
+	margin-top: -60px;
+	margin-left: 15px;
+}
+
+.home-sec{
+	margin-left: 20%;
+	color: white;
+	text-decoration: none;
+}
+.main-galery{
+	margin-left: 15%;
+}
+
+.galery img{
+	height: 70px;
+	width: 90px;
+border-radius: 3px;
+border: 2px solid white;
+
+}
+
+
